@@ -12,4 +12,8 @@ This is an ***Expense Tracker Web App*** that tracks the way you spend your inco
 - Delete items from DOM
 - Persist to local storage
 
+## Screenshots -:
 
+[![Untitled.png](https://i.postimg.cc/J7D3VzLQ/Untitled.png)](https://postimg.cc/hhnQVghJ)
+
+[![Untitled1.png](https://i.postimg.cc/vBvJGt9p/Untitled1.png)](https://postimg.cc/njCRk73k)
