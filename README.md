@@ -27,8 +27,11 @@ This is an ***Expense Tracker Web App*** that tracks the way you spend your inco
 <img src="https://forthebadge.com/images/badges/uses-html.svg" width="140" align="center"> <img src="https://forthebadge.com/images/badges/uses-css.svg" width="130" align="center">  <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" width="250" align="center">
 
 ### Screenshots -:
-[![Untitled.png](https://i.postimg.cc/fRrWChtc/Untitled.png)](https://postimg.cc/68CN6ghq)
+[![Untitled.png](https://i.postimg.cc/ZqKSGb2B/Untitled.png)](https://postimg.cc/zyM6WrJ8)
 
-[![Untitled.png](https://i.postimg.cc/J7D3VzLQ/Untitled.png)](https://postimg.cc/hhnQVghJ)
+[![Untitled2.png](https://i.postimg.cc/HkcC9ZqR/Untitled2.png)](https://postimg.cc/NKcVg4fk)
 
-[![Untitled1.png](https://i.postimg.cc/vBvJGt9p/Untitled1.png)](https://postimg.cc/njCRk73k)
+[![Untitled3.png](https://i.postimg.cc/CLh0Ryjs/Untitled3.png)](https://postimg.cc/nMPgWPSX)
+
+
+
