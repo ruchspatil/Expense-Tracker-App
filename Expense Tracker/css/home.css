@@ -1,0 +1,373 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;  /* Use Poppins font */
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light background for the page */
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #2f3e4e;  /* Dark blue background */
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.pic-image {
+    width: 400px;      
+    height: 400px;      
+    border-radius: 50%;
+  }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+
+.nav-links a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.nav-links a:hover {
+    text-decoration: none; 
+    color: #0096FF; 
+}
+
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(45deg, #0096FF, #005B94);  /* Gradient from light blue to dark blue */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.typewriter {
+    font-size: 3em;
+    margin-bottom: 20px;
+    overflow: hidden; /* Ensures the text is hidden until revealed */
+    white-space: nowrap; /* Prevents the text from wrapping to a new line */
+    border-right: 3px solid white; /* Creates the cursor effect */
+    width: 0; /* Start with no width */
+    animation: typing 4s steps(30) 1s forwards, blink 0.75s step-end infinite; /* Typewriter animation */
+}
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%; /* Expands the width to reveal the text */
+    }
+}
+
+/* Keyframes for the blinking cursor */
+@keyframes blink {
+    50% {
+        border-color: transparent; /* Hide cursor at half time */
+    }
+    100% {
+        border-color: white; /* Show cursor */
+    }
+}
+.cta-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    border: none;
+    text-decoration: none; 
+}
+
+.cta-btn:hover {
+    background-color: #0096FF;
+    color: #fff; 
+}
+
+
+/* About Section */
+.about {
+    padding: 80px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #2f3e4e;
+}
+
+.about p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature h3 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    color: #2f3e4e;
+}
+
+.feature p {
+    font-size: 1.1em;
+    color: #777;
+}
+.feature:hover {
+    transform: translateY(-10px); /* Hover effect to raise the card */
+}
+/* Contact Image Class */
+.feature-image {
+    width: 170px;      
+    height: 160px;      
+   
+  }
+  .review-image {
+    width: 90px;      
+    height: 26px;      
+   
+  }
+/* Contact Section */
+.contact {
+    padding: 80px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2f3e4e;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+    max-height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact form input,
+.contact form textarea {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    outline: none;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    border-color: #0096FF; /* Light blue border on focus */
+}
+
+.contact form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact form button {
+    background-color: #0096FF; /* Light blue background */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+    background-color: #005B94; /* Darker blue on hover */
+}
+/* Contact Image Class */
+.contact-image {
+    width: 500px;      
+    height: 500px;      
+   
+  }
+  
+/* Footer */
+footer {
+    background-color: #272727;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Scroll-to-top Button */
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0096FF;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.scroll-top img {
+    width: 25px;
+    height: 25px;
+}
+
+.scroll-top:hover {
+    background-color: #005B94;
+}
+/* Testimonials Section */
+.testimonials {
+    padding: 80px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    color: #2f3e4e;
+    margin-bottom: 40px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Space between cards */
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px; /* You can adjust the width as per your design */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-card p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimonial-card span {
+    font-size: 1em;
+    font-weight: bold;
+    color: #0096FF; /* You can change this to your desired color */
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px); /* Hover effect to raise the card */
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .testimonial-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .testimonial-card {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+.left-section {
+    flex: 1;
+    padding-right: 0px;
+    max-width: 50%;
+}
+
+
+.right-section {
+    flex: 1;
+    padding-left:0px;
+    max-width:  50%;
+}
+.container {
+    display: flex; /* Enable Flexbox layout */
+    justify-content: space-between; /* Space between the sections */
+    align-items: center; /* Vertically center content */
+    flex-wrap: wrap; /* Allows sections to stack on smaller screens */
+  }
+ 
