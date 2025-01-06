@@ -5,7 +5,7 @@
     Manage personal finances & control over spending!
     <br/>
     <br/>
-    <a href="https://expensetrackersitehere.netlify.app/">View Demo</a>
+    <a href="https://expensetracker-site.netlify.app/">View Demo</a>
     
   </p>
 </p>
